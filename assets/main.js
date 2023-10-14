@@ -101,7 +101,7 @@ var investigationdone = new Howl({
   src: ['../assets/audio/investigationdone.mp3']
 });
 var soundtrack = new Howl({
-  src: ['https://bnthosting.online/listen/highlights_radio_/stream'],
+  src: ['../assets/audio/soundtrack.js'],
   loop: true,
   volume: 0.125
 });
