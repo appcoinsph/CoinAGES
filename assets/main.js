@@ -869,13 +869,3 @@ while(marker <= tempSt){
 
 }
 
-
-
-
-
-function resetSave(){
- window.localStorage.clear()
- createAlert('Reset','Resetting your save please wait...',alertImages.cancelX)
- window.location.reload(true);
-
-}
