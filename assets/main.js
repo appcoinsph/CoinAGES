@@ -42,7 +42,7 @@ var notifSound = new Howl({
   volume: 0.3
 });
 var coinSound = new Howl({
-  src: ['../assets/audio/tunog.html']
+  src: ['../assets/audio/tunog.html'], 
 });
 var robotBuySound = new Howl({
   src: ['../assets/audio/robot.wav'],
@@ -101,7 +101,7 @@ var investigationdone = new Howl({
   src: ['../assets/audio/investigationdone.mp3']
 });
 var soundtrack = new Howl({
-  src: ['../assets/audio/tunog.html']
+  src: ['../assets/audio/tunog.html'], 
   loop: true,
   volume: 0.125
 });
