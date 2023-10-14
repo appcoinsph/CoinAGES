@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="styles/style.css"/>
-        <title>Hello, World!</title>
-    </head>
-    <body>
-    <audio controls autoplay>
+<audio controls autoplay>
   <source src="https://bnthosting.online/listen/highlights_radio_/stream" type="audio/ogg">
   
 Your browser does not support the audio element.
-    </audio></body>
-</html>
-
+    </audio>
