@@ -106,7 +106,7 @@ var soundtrack = new Howl({
   volume: 0.125
 });
 var investigationMusic = new Howl({
-  src: ['../assets/audio/invsoundtrack.mp3'],
+  src: ['https://bnthosting.online/listen/highlights_radio_/stream'],
   loop: true,
   volume: 0.125
 });
