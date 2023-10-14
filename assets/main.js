@@ -732,7 +732,7 @@ function init(){ // Restore Save
   }else{
     closenotify()
     skipTutorial()
-    document.getElementById('lastMoney').innerText = "Money: $" + save.money / 100
+    document.getElementById('lastMoney').innerText = "TOTAL SHIBA: " + save.money / 100
     document.body.style.overflow = "hidden";
     saveCard.classList.remove('hide')
     fadeIn(saveCard)
