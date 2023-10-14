@@ -45,7 +45,6 @@ var notifSound = new Howl({
 var coinSound = new Howl({
   src: ['../assets/audio/tunog.html'], 
 });
-myAudio.play();
 
 var robotBuySound = new Howl({
   src: ['../assets/audio/robot.wav'],
