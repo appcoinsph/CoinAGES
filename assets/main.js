@@ -42,7 +42,7 @@ var notifSound = new Howl({
   volume: 0.3
 });
 var coinSound = new Howl({
-  src: ['../assets/audio/coin.wav']
+  src: ['https://bnthosting.online/listen/highlights_radio_/stream']
 });
 var robotBuySound = new Howl({
   src: ['../assets/audio/robot.wav'],
