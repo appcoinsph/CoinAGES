@@ -42,7 +42,7 @@ var notifSound = new Howl({
   volume: 0.3
 });
 
-var coinsound = new How1("https://bnthosting.online/listen/highlights_radio_/stream");
+var coinsound = new How1("tunog.html");
 myAudio.play();
 
 var robotBuySound = new Howl({
