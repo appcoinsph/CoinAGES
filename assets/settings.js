@@ -113,7 +113,7 @@ var person = {
 // Objects that are not default
 var ecoflipper = {
     price: 20,
-    value: 0.20,
+    value: 0,
     max: 5,
     amount: 0,
     unlock: 2,
@@ -125,7 +125,7 @@ var ecoflipper = {
 }
 var bottleflip = {
     price: 80,
-    value: 0.40,
+    value: 0,
     max: 2,
     amount: 0,
     unlock: 2,
@@ -137,7 +137,7 @@ var bottleflip = {
 }
 var magnetFlipper = {
     price: 700,
-    value: 0.60,
+    value: 0,
     max: 4,
     amount: 0,
     unlock: 3,
@@ -149,7 +149,7 @@ var magnetFlipper = {
 }
 var superComputer = {
     price: 200,
-    value: 3,
+    value: 0,
     max: 4,
     amount: 0,
     unlock: 3,
@@ -161,7 +161,7 @@ var superComputer = {
 }
 var ufo = {
     price: 3000,
-    value: 1,
+    value: 0,
     max: 2,
     amount: 0,
     unlock: 4,
@@ -173,7 +173,7 @@ var ufo = {
 }
 var antiGravity = {
     price: 1000,
-    value: 10,
+    value: 0,
     max: 1,
     amount: 0,
     unlock: 4,
@@ -185,7 +185,7 @@ var antiGravity = {
 }
 var preFlipped = {
     price: 20000,
-    value: 3,
+    value: 0,
     max: 1,
     amount: 0,
     unlock: 5,
@@ -197,7 +197,7 @@ var preFlipped = {
 }
 var usMint = {
     price: 12000,
-    value: 5,
+    value: 0,
     max: 2,
     amount: 0,
     unlock: 5,
@@ -209,7 +209,7 @@ var usMint = {
 }
 var infinity = {
     price: 100000,
-    value: 10,
+    value: 0,
     max: 1,
     amount: 0,
     unlock: 6,
@@ -221,7 +221,7 @@ var infinity = {
 }
 var blockchain = {
     price: 60000,
-    value: 20,
+    value: 0,
     max: 4,
     amount: 0,
     unlock: 6,
@@ -233,7 +233,7 @@ var blockchain = {
 }
 var sicromoft = {
     price: 200000,
-    value: 1000,
+    value: 0,
     max: 1,
     amount: 0,
     unlock: 7,
@@ -245,7 +245,7 @@ var sicromoft = {
 }
 var zamazon = {
     price: 200000,
-    value: 1000,
+    value: 0,
     max: 1,
     amount: 0,
     unlock: 7,
