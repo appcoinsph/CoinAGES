@@ -472,21 +472,21 @@ function managerobot(){
    document.getElementById('robotbar').style.animation = "barframes 1s infinite"
   document.getElementById('robotbar').style.display = "inline-block"
 
-  setTimeout(managerobot2,69900)
+  setTimeout(managerobot2,900)
 }
 function managerobot2(){
   customers +=1
   player.money += Math.round(parseFloat(robot.value) * 100);
    document.getElementById('robotbar').style.transition = "none"
   document.getElementById('robotbar').style.width = "0%"
-  setTimeout(managerobot,69100)
+  setTimeout(managerobot,100)
 }
 //ECOFLIPPER
 function manageecoflipper(){
 	document.getElementById("ecobar").style.animation = "barframes 1s infinite"
   document.getElementById("ecobar").style.display = "inline-block"
 
-  setTimeout(manageecoflipper2,69900)
+  setTimeout(manageecoflipper2,900)
 
 }
 function manageecoflipper2(){
