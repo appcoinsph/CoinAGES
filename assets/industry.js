@@ -375,7 +375,7 @@ function attackSelf(comp, attackCard){
   tempCampaign.style.display = "inline-block";
   var tester2 = document.getElementById("event-booths");
   if(tester2 == null){
-    createCampaign("event-booths", "Event Sponsorship", "Sponsor events all around", "the country to get", "booths for your company.", "It's good advertising.", "Permanent: +0.25 per manual flip", "/img/eventSponsor.png", 1250, 25);
+    createCampaign("event-booths", "Event Sponsorship", "Sponsor events all around", "the country to get", "booths for your company.", "It's good advertising.", "Permanent: +0.25 per manual flip", "/img/eventSponsor.png", 21250, 23225);
   choiceRunning = false;
   }
 }
