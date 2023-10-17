@@ -486,7 +486,7 @@ function manageecoflipper(){
 	document.getElementById("ecobar").style.animation = "barframes 1s infinite"
   document.getElementById("ecobar").style.display = "inline-block"
 
-  setTimeout(manageecoflipper2,900)
+  setTimeout(manageecoflipper2,1400)
 
 }
 function manageecoflipper2(){
