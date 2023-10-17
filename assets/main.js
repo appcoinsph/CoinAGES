@@ -472,7 +472,7 @@ function managerobot(){
    document.getElementById('robotbar').style.animation = "barframes 1s infinite"
   document.getElementById('robotbar').style.display = "inline-block"
 
-  setTimeout(managerobot2,60000)
+  setTimeout(managerobot2,9000)
 }
 function managerobot2(){
   customers +=1
