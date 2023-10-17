@@ -267,19 +267,19 @@ setTimeout(function(){
     case "preFlipped_mk2":
 			itemLimits["preFlipped_mk2"]++
 			deleteShopItem(id);
-			preFlipped.value = 3.5;
+			preFlipped.value = 0.5;
       statusUpdate(preFlipped)
       return
     case "blockchain_mk2":
 			itemLimits["blockchain_mk2"]++
 			deleteShopItem(id);
-			blockchain.value = 40;
+			blockchain.value = 0.40;
       statusUpdate(blockchain)
       return
     case "infinity_mk2":
 			itemLimits["infinity_mk2"]++
 			deleteShopItem(id);
-			infinity.value = 20;
+			infinity.value = 0.20;
       statusUpdate(infinity)
       return
 		case "dime-dev":
