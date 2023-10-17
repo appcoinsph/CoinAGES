@@ -613,7 +613,7 @@ function manageinfinity2(){
   player.money += Math.round(parseFloat(infinity.value) * 100);
    document.getElementById('infinitybar').style.transition = "none"
   document.getElementById('infinitybar').style.width = "0%"
-  setTimeout(manageinfinity,690=100)
+  setTimeout(manageinfinity,69000)
 }
 //blockchain
 function manageblockchain(){
@@ -626,33 +626,33 @@ function manageblockchain2(){
  player.money += Math.round(parseFloat(blockchain.value) * 100);
   document.getElementById('blockchainbar').style.transition = "none"
  document.getElementById('blockchainbar').style.width = "0%"
- setTimeout(manageblockchain,100)
+ setTimeout(manageblockchain,90100)
 }
 //sicromoft
 function managesicromoft(){
   document.getElementById('sicromoftbar').style.animation = "barframes 1s infinite"
  document.getElementById('sicromoftbar').style.display = "inline-block"
- setTimeout(managesicromoft2,900)
+ setTimeout(managesicromoft2,90900)
 }
 function managesicromoft2(){
    customers +=1
  player.money += Math.round(parseFloat(sicromoft.value) * 100);
   document.getElementById('sicromoftbar').style.transition = "none"
  document.getElementById('sicromoftbar').style.width = "0%"
- setTimeout(managesicromoft,100)
+ setTimeout(managesicromoft,90100)
 }
 //zamazon
 function managezamazon(){
   document.getElementById('zamazonbar').style.animation = "barframes 1s infinite"
  document.getElementById('zamazonbar').style.display = "inline-block"
- setTimeout(managezamazon2,900)
+ setTimeout(managezamazon2,90900)
 }
 function managezamazon2(){
    customers +=1
  player.money += Math.round(parseFloat(zamazon.value) * 100);
   document.getElementById('zamazonbar').style.transition = "none"
  document.getElementById('zamazonbar').style.width = "0%"
- setTimeout(managezamazon,100)
+ setTimeout(managezamazon,90100)
 }
 //End game
 function endGame(){
