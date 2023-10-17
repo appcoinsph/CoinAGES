@@ -476,7 +476,7 @@ function managerobot(){
 }
 function managerobot2(){
   customers +=1
-  player.money += Math.round(parseFloat(robot.value) * 100);
+  player.money += Math.round(parseFloat(robot.value) * 0.01);
    document.getElementById('robotbar').style.transition = "none"
   document.getElementById('robotbar').style.width = "0%"
   setTimeout(managerobot,100)
