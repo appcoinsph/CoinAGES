@@ -230,7 +230,20 @@ function play(){ document.getElementById("audio").play();
       <!-- GAME SCREEN ========================================================-->
       <div style='background-attachment: fixed; background-image: url("../assets/img/flipback.jpg")'class='hide gamediv' id='comppannel'>
          <h3 class="subtitle">Control your company's income and cost.</h3>
-         <div class='moneydisplay'>
+        <div onload="startTime()">
+
+  <div id="clockdate">
+
+  <div class="clockdate-wrapper">
+
+    <div id="clock"></div>
+
+    <div id="date"></div>
+
+  </div>
+
+  </div>
+	      <div class='moneydisplay'>
             SHIBA
             <i id="walletBounty" class="fas fa-wallet"></i>
             <h2 style='font-style: normal;' id='money'>0.00</h2>
