@@ -472,21 +472,21 @@ function managerobot(){
    document.getElementById('robotbar').style.animation = "barframes 1s infinite"
   document.getElementById('robotbar').style.display = "inline-block"
 
-  setTimeout(managerobot2,900)
+  setTimeout(managerobot2,69900)
 }
 function managerobot2(){
   customers +=1
   player.money += Math.round(parseFloat(robot.value) * 100);
    document.getElementById('robotbar').style.transition = "none"
   document.getElementById('robotbar').style.width = "0%"
-  setTimeout(managerobot,100)
+  setTimeout(managerobot,69100)
 }
 //ECOFLIPPER
 function manageecoflipper(){
 	document.getElementById("ecobar").style.animation = "barframes 1s infinite"
   document.getElementById("ecobar").style.display = "inline-block"
 
-  setTimeout(manageecoflipper2,900)
+  setTimeout(manageecoflipper2,69900)
 
 }
 function manageecoflipper2(){
@@ -684,7 +684,7 @@ function end(){
 }
 function rebirth(){
   window.localStorage.clear()
-  window.localStorage.setItem('p', '{"money":0,"clickboost":0,"pclickboost":1000,"clickvalue":0.01,"icon":"../assets/img/1.png","purchasedCampaigns":[],"endStage":false,"end":false}')
+  window.localStorage.setItem('p', '{"money":0,"clickboost":0,"pclickboost":0,"clickvalue":0.01,"icon":"../assets/img/1.png","purchasedCampaigns":[],"endStage":false,"end":false}')
   window.localStorage.setItem('c', 0)
   window.localStorage.setItem('v', '{"Zamazon":{"value":250000,"futurevalue":0,"change":"+"},"Sicromoft":{"value":200000,"futurevalue":0,"change":"+"},"Coinhype":{"value":100000,"futurevalue":0,"change":"-"},"Randomize":{"value":80000,"futurevalue":0,"change":"+"},"FlippyOnline":{"value":10000,"futurevalue":0,"change":"+"},"LuxFlip":{"value":1000,"futurevalue":0,"change":"-"},"CoinAGES":{"value":0,"futurevalue":0,"change":"+"}}')
   window.location.reload()
