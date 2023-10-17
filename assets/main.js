@@ -240,15 +240,15 @@ function update(){
   player.money = Math.round(player.money);
 	if(ecoflipper.amount > 0 && eco_mk2 && itemLimits.eco_mk2 !== 1){
 		eco_mk2 = false;
-		createShopItem("eco_mk2", "Giant Fans", "Buy mega-fans to", "manipulate the wind", "so that eco-flippers", "flip more coins.", 0.5);
+		createShopItem("eco_mk2", "Giant Fans", "Buy mega-fans to", "manipulate the wind", "so that eco-flippers", "flip more coins.", 1500);
 	}
   if(bottleflip.amount > 0 && bottle_mk2 && itemLimits.bottle_mk2 !== 1){
 		bottle_mk2 = false;
-		createShopItem("bottle_mk2", "Bigger Bottles", "Koka-Kola™ bottles are", "bigger, resulting in", "space for more coins", "adds +2¢/flip.", 0.3)
+		createShopItem("bottle_mk2", "Bigger Bottles", "Koka-Kola™ bottles are", "bigger, resulting in", "space for more coins", "adds +2¢/flip.", 1900)
 	}
   if(bottleflip.amount > 0 && itemLimits.bottle_max_increase < 2 && bottle_max_increase){
     bottle_max_increase = false;
-		createShopItem("bottle_max_increase", "Extra Bottles", "Koka-Kola™ has agreed", "to increase the", "limit on bottles", "you can purchase.", 0.2);
+		createShopItem("bottle_max_increase", "Extra Bottles", "Koka-Kola™ has agreed", "to increase the", "limit on bottles", "you can purchase.", 2600);
 	}
 	if(robot.amount > 0 && buy_mk2){
 		buy_mk2 = false;
@@ -256,39 +256,39 @@ function update(){
 	}
 	if(person.amount > 0 && buy_workers_mk2){
 		buy_workers_mk2 = false;
-		createShopItem("one-man-army", "Efficient Workers", "Better salaries lead", "to better workers.", "Workers can flip", "5¢ every second.", 0.4);
+		createShopItem("one-man-army", "Efficient Workers", "Better salaries lead", "to better workers.", "Workers can flip", "5¢ every second.", 4200);
 	}
   if(magnetFlipper.amount > 0 && magnetFlipper_mk2 && itemLimits.magnetFlipper_mk2 !== 1 ){
 		magnetFlipper_mk2 = false;
-		createShopItem("magnetFlipper_mk2", "Electromagnets", "Create custom", "Electromagnets", "to create stronger magnets", " adds +5¢/flip.", 0.20)
+		createShopItem("magnetFlipper_mk2", "Electromagnets", "Create custom", "Electromagnets", "to create stronger magnets", " adds +5¢/flip.", 20000)
 	}
   if(superComputer.amount > 0 && superComputer_mk2 && itemLimits.superComputer_mk2 !== 1){
 	  superComputer_mk2 = false;
-		createShopItem("superComputer_mk2", "Nvidian GPU's", "Equip your supercomputers", "with the latest Nvidian GPU's", "to make them more powerful", " adds +$2/flip.", 0.5)
-	}
+		createShopItem("superComputer_mk2", "Nvidian GPU's", "Equip your supercomputers", "with the latest Nvidian GPU's", "to make them more powerful", " adds +$2/flip.", 50000)
+  }
   if(ufo.amount > 0 && ufo_mk2 && itemLimits.ufo_mk2 !== 1){
 	  ufo_mk2 = false;
-		createShopItem("ufo_mk2", "Alien Negotiations", "Make a deal with the", "Aliens to receive", "more technological aid", "increases limit by 1", 0.30)
+		createShopItem("ufo_mk2", "Alien Negotiations", "Make a deal with the", "Aliens to receive", "more technological aid", "increases limit by 1", 30000)
 	}
   if(antiGravity.amount > 0 && antiGravity_mk2 && itemLimits.antiGravity_mk2 !== 1){
 	  antiGravity_mk2 = false;
-		createShopItem("antiGravity_mk2", "Second Cargo Ship", "Get permission to", "build and launch", "another Anti-Gravity flipper", "increases limit by 1", 0.25)
+		createShopItem("antiGravity_mk2", "Second Cargo Ship", "Get permission to", "build and launch", "another Anti-Gravity flipper", "increases limit by 1", 25005)
 	}
    if(usMint.amount > 0 && usMint_mk2 && itemLimits.usMint_mk2 !== 1){
 	  usMint_mk2 = false;
-		createShopItem("usMint_mk2", "Build Mints", "Why just buy mints", "when you can also", "build them too? ", "increases limit by 1", 0.50)
+		createShopItem("usMint_mk2", "Build Mints", "Why just buy mints", "when you can also", "build them too? ", "increases limit by 1", 60000)
 	}
    if(preFlipped.amount > 0 && preFlipped_mk2 && itemLimits.preFlipped_mk2 !== 1){
 	  preFlipped_mk2 = false;
-		createShopItem("preFlipped_mk2", "Pre-flipped Breakthrough", "Since the coins only have", "one side, you can serve", "multiple customers at once.", "adds +50¢/flip.", 0.60)
+		createShopItem("preFlipped_mk2", "Pre-flipped Breakthrough", "Since the coins only have", "one side, you can serve", "multiple customers at once.", "adds +50¢/flip.", 66000)
 	}
   if(infinity.amount > 0 && infinity_mk2 && itemLimits.infinity_mk2 !== 1){
 	  infinity_mk2 = false;
-		createShopItem("infinity_mk2", "Infinity Stone", "Fuse the already powerful", "infinity coin with an", "infinity stone", "adds +$10/flip.", 0.10)
+		createShopItem("infinity_mk2", "Infinity Stone", "Fuse the already powerful", "infinity coin with an", "infinity stone", "adds +$10/flip.", 100000)
 	}
    if(blockchain.amount > 0 && blockchain_mk2 && itemLimits.blockchain_mk2 !== 1){
 	  blockchain_mk2 = false;
-		createShopItem("blockchain_mk2", "CryptoCurrency", "Create a CryptoCurrency", "to promote your blockchain", "to more people", "adds +$20/flip.", 0.50)
+		createShopItem("blockchain_mk2", "CryptoCurrency", "Create a CryptoCurrency", "to promote your blockchain", "to more people", "adds +$20/flip.", 150000)
 	}
 
 	if(person.amount > 0 && robot.amount > 0  && rev_tut6){
