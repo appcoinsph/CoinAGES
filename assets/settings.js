@@ -5,7 +5,7 @@ var player = {
     money: 0,
     clickboost: 0.00,
     pclickboost: 0.00,
-    clickvalue: 0.01,
+    clickvalue: 0.006,
     icon: "../assets/img/1.png",
     purchasedCampaigns: [],
     partners: [],
@@ -15,17 +15,17 @@ var player = {
 //Industry
 var industry = {
     Zamazon: {
-        value: 250000,
+        value: 5955530,
         futurevalue: 0,
         change: '0',
     },
     Sicromoft: {
-        value: 200000,
+        value: 3200000,
         futurevalue: 0,
         change: '0',
     },
     Coinhype: {
-        value: 100000,
+        value: 1100000,
         futurevalue: 0,
         change: '25',
     },
@@ -52,17 +52,17 @@ var industry = {
 }
 const iorignal = {
     Zamazon: {
-        value: 250000,
+        value: 5955530,
         futurevalue: 0,
         change: '+',
     },
     Sicromoft: {
-        value: 200000,
+        value: 3200000,
         futurevalue: 0,
         change: '+',
     },
     Coinhype: {
-        value: 100000,
+        value: 1100000,
         futurevalue: 0,
         change: '-',
     },
@@ -93,7 +93,7 @@ var leadingCompanies = ['Zamazon', 'Sicromoft', 'Coinhype', 'Randomize', 'Flippy
 var robot = {
     price: 1,
     unlock: 0,
-    value: 0.01,
+    value: 0.006,
     max: 10,
     amount: 0,
     wakeup: 'managerobot',
@@ -103,7 +103,7 @@ var robot = {
 var person = {
     price: 2,
     unlock: 0,
-    value: 0.03,
+    value: 0.007,
     max: 5,
     amount: 0,
     wakeup: 'manageperson',
@@ -232,7 +232,7 @@ var blockchain = {
 
 }
 var sicromoft = {
-    price: 200000,
+    price: 3200000,
     value: 0,
     max: 1,
     amount: 0,
@@ -244,7 +244,7 @@ var sicromoft = {
 
 }
 var zamazon = {
-    price: 200000,
+    price: 5955530,
     value: 0,
     max: 1,
     amount: 0,
