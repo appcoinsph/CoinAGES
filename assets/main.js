@@ -574,7 +574,7 @@ function manageantiGravity2(){
   player.money += Math.round(parseFloat(antiGravity.value) * 100);
    document.getElementById('antiGravitybar').style.transition = "none"
   document.getElementById('antiGravitybar').style.width = "0%"
-  setTimeout(manageantiGravity,6≠6100)
+  setTimeout(manageantiGravity,66100)
 }
 //preFlipped
 function managepreFlipped(){
