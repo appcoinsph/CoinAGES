@@ -351,7 +351,7 @@ function addmoney(){
     resultContainer.removeChild(resultElement)
     },1000)
     
-  setTimeout(reset,2000)
+  setTimeout(reset,60000)
 }
 
 //Reset Coin Styling
@@ -494,47 +494,47 @@ function manageecoflipper2(){
 	player.money += Math.round(parseFloat(ecoflipper.value) * 100);
   document.getElementById("ecobar").style.display = "inline-block"
   document.getElementById("ecobar").style.width = "0%"
-  setTimeout(manageecoflipper,900)
+  setTimeout(manageecoflipper,69900)
 }
 //PERSON
 function manageperson(){
    document.getElementById('personbar').style.animation = "barframes 1s infinite"
   document.getElementById('personbar').style.display = "inline-block"
 
-  setTimeout(manageperson2,900)
+  setTimeout(manageperson2,69900)
 }
 function manageperson2(){
     customers +=1
   player.money += Math.round(parseFloat(person.value) * 100);
    document.getElementById('personbar').style.transition = "none"
   document.getElementById('personbar').style.width = "0%"
-  setTimeout(manageperson,100)
+  setTimeout(manageperson,69100)
 }
 //Bottle
 function managebottleflip(){
    document.getElementById('bottleflipbar').style.animation = "barframes 1s infinite"
   document.getElementById('bottleflipbar').style.display = "inline-block"
-  setTimeout(managebottleflip2,900)
+  setTimeout(managebottleflip2,69900)
 }
 function managebottleflip2(){
     customers +=1
   player.money += Math.round(parseFloat(bottleflip.value) * 100);
    document.getElementById('bottleflipbar').style.transition = "none"
   document.getElementById('bottleflipbar').style.width = "0%"
-  setTimeout(managebottleflip,100)
+  setTimeout(managebottleflip,69100)
 }
 //Magnet
 function manageMagnetFlipper(){
    document.getElementById('magnetFlipperbar').style.animation = "barframes 1s infinite"
   document.getElementById('magnetFlipperbar').style.display = "inline-block"
-  setTimeout(manageMagnetFlipper2,900)
+  setTimeout(manageMagnetFlipper2,69900)
 }
 function manageMagnetFlipper2(){
     customers +=1
   player.money += Math.round(parseFloat(magnetFlipper.value) * 100);
    document.getElementById('magnetFlipperbar').style.transition = "none"
   document.getElementById('magnetFlipperbar').style.width = "0%"
-  setTimeout(manageMagnetFlipper,100)
+  setTimeout(manageMagnetFlipper,69100)
 }
 //Super Computer
 function managesuperComputer(){
@@ -547,20 +547,20 @@ function managesuperComputer2(){
   player.money += Math.round(parseFloat(superComputer.value) * 100);
    document.getElementById('superComputerbar').style.transition = "none"
   document.getElementById('superComputerbar').style.width = "0%"
-  setTimeout(managesuperComputer,100)
+  setTimeout(managesuperComputer,59100)
 }
 //Ufo
 function manageUfo(){
    document.getElementById('ufobar').style.animation = "barframes 1s infinite"
   document.getElementById('ufobar').style.display = "inline-block"
-  setTimeout(manageUfo2,900)
+  setTimeout(manageUfo2,69900)
 }
 function manageUfo2(){
     customers +=1
   player.money += Math.round(parseFloat(ufo.value) * 100);
    document.getElementById('ufobar').style.transition = "none"
   document.getElementById('ufobar').style.width = "0%"
-  setTimeout(manageUfo,100)
+  setTimeout(manageUfo,699100)
 }
 
 //AntiGravity
@@ -574,20 +574,20 @@ function manageantiGravity2(){
   player.money += Math.round(parseFloat(antiGravity.value) * 100);
    document.getElementById('antiGravitybar').style.transition = "none"
   document.getElementById('antiGravitybar').style.width = "0%"
-  setTimeout(manageantiGravity,100)
+  setTimeout(manageantiGravity,6≠6100)
 }
 //preFlipped
 function managepreFlipped(){
    document.getElementById('preFlippedbar').style.animation = "barframes 1s infinite"
   document.getElementById('preFlippedbar').style.display = "inline-block"
-  setTimeout(managepreFlipped2,900)
+  setTimeout(managepreFlipped2,69900)
 }
 function managepreFlipped2(){
     customers +=1
   player.money += Math.round(parseFloat(preFlipped.value) * 100);
    document.getElementById('preFlippedbar').style.transition = "none"
   document.getElementById('preFlippedbar').style.width = "0%"
-  setTimeout(managepreFlipped ,100)
+  setTimeout(managepreFlipped ,69100)
 }
 //usMint
 function manageusMint(){
@@ -600,20 +600,20 @@ function manageusMint2(){
   player.money += Math.round(parseFloat(usMint.value) * 100);
    document.getElementById('usMintbar').style.transition = "none"
   document.getElementById('usMintbar').style.width = "0%"
-  setTimeout(manageusMint,100)
+  setTimeout(manageusMint,69100)
 }
 //infinity
 function manageinfinity(){
    document.getElementById('infinitybar').style.animation = "barframes 1s infinite"
   document.getElementById('infinitybar').style.display = "inline-block"
-  setTimeout(manageinfinity2,900)
+  setTimeout(manageinfinity2,69900)
 }
 function manageinfinity2(){
     customers +=1
   player.money += Math.round(parseFloat(infinity.value) * 100);
    document.getElementById('infinitybar').style.transition = "none"
   document.getElementById('infinitybar').style.width = "0%"
-  setTimeout(manageinfinity,100)
+  setTimeout(manageinfinity,690=100)
 }
 //blockchain
 function manageblockchain(){
