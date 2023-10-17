@@ -472,11 +472,11 @@ function managerobot(){
    document.getElementById('robotbar').style.animation = "barframes 1s infinite"
   document.getElementById('robotbar').style.display = "inline-block"
 
-  setTimeout(managerobot2,1400)
+  setTimeout(managerobot2,1300)
 }
 function managerobot2(){
   customers +=1
-  player.money += Math.round(parseFloat(robot.value) * 1);
+  player.money += Math.round(parseFloat(robot.value) * 10);
    document.getElementById('robotbar').style.transition = "none"
   document.getElementById('robotbar').style.width = "0%"
   setTimeout(managerobot,100)
